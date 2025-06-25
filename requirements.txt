@@ -1,0 +1,40 @@
+# FastAPI and core dependencies
+fastapi
+uvicorn[standard]
+pydantic[email]
+pydantic-settings
+
+# Database
+sqlalchemy
+databases[postgresql]
+aiosqlite
+asyncpg
+alembic
+
+# Authentication & Security
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+
+# Caching
+redis
+hiredis
+
+# HTTP client
+httpx
+
+# Development tools
+pytest
+pytest-asyncio
+pytest-cov
+black
+flake8
+isort
+mypy
+
+# Monitoring
+prometheus-client
+structlog
+
+# Environment
+python-dotenv
