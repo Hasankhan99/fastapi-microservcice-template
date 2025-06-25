@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: fastapi-microservice
+data:
+  PROJECT_NAME: "FastAPI Microservice"
+  ENVIRONMENT: "production"
+  LOG_LEVEL: "INFO"
+  HOST: "0.0.0.0"
+  PORT: "8000"
